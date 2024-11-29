@@ -95,7 +95,6 @@ h1 {
     color: #ff4655;
 }
 
-/* Style for the agent name below the image */
 .agent-name {
     margin-top: 10px;
     font-size: 1.2rem;
@@ -104,31 +103,27 @@ h1 {
     font-weight: bold;
     letter-spacing: 1px;
     transition: color 0.3s ease;
-    text-align: center; /* Center align the name */
+    text-align: center;
 }
 
-/* Hover effect for the agent name */
 .agent:hover .agent-name {
-    color: #ff4655; /* Change color when hovering over agent */
+    color: #ff4655;
 }
 
-
-/* Container for all content */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Grid for agents - 4 columns per row */
 .agents-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 agents per row */
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     justify-items: center;
 }
 
-/* Individual agent card */
+
 .agent {
     position: relative;
     overflow: hidden;
@@ -145,7 +140,7 @@ h1 {
     transition: transform 0.3s ease;
 }
 
-/* Hover effects */
+
 .agent:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
@@ -155,27 +150,25 @@ h1 {
     transform: scale(1.1);
 }
 
-/* Make images clickable */
 .agent a {
     display: block;
     height: 100%;
     width: 100%;
 }
 
-/* Responsive adjustments for small screens */
 @media (max-width: 768px) {
     h1 {
         font-size: 1.8rem;
     }
 
     .agents-grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 agents per row on smaller screens */
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 480px) {
     .agents-grid {
-        grid-template-columns: 1fr; /* 1 agent per row on extra small screens */
+        grid-template-columns: 1fr;
     }
 
     h1 {

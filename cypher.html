@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     padding: 40px;
-    background-image: url('images/cypher/bg.jpg');
+    background-image: url('cypher/bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -82,23 +82,23 @@
             <div class="skills-selector">
                 <div class="skills-list">
                     <div class="skill-item" onclick="changeSkill(0)">
-                        <img src="images/cypher/trap.avif" alt="Trapwire">
+                        <img src="cypher/trap.avif" alt="Trapwire">
                     </div>
                     <div class="skill-item" onclick="changeSkill(1)">
-                        <img src="images/cypher/camera.avif" alt="Spycam">
+                        <img src="cypher/camera.avif" alt="Spycam">
                     </div>
                     <div class="skill-item" onclick="changeSkill(2)">
-                        <img src="images/cypher/neural.avif" alt="Neural Theft">
+                        <img src="cypher/neural.avif" alt="Neural Theft">
                     </div>
                     <div class="skill-item" onclick="changeSkill(3)">
-                        <img src="images/cypher/ultimate.avif" alt="Cyber Cage">
+                        <img src="cypher/ultimate.avif" alt="Cyber Cage">
                     </div>
                 </div>
             </div>
         </div>
         <div class="skills-display">
             <video id="skill-video" controls>
-                <source id="video-source" src="images/cypher/trap.mp4" type="video/mp4">
+                <source id="video-source" src="cypher/trap.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <div class="skill-details">
@@ -120,26 +120,26 @@ const skillsData = [
     {
         name: "Trapwire",
         description: "EQUIP a trap that is placed on the ground. Once triggered, the trap binds and slows the enemy while emitting an audible sound to alert teammates.",
-        video: "images/cypher/trap.mp4",
-        img: "images/cypher/trap.png"
+        video: "cypher/trap.mp4",
+        img: "cypher/trap.png"
     },
     {
         name: "Spycam",
         description: "EQUIP a camera that can be placed on walls. Once activated, it sends a live feed to Cypher and can tag enemies within its view.",
-        video: "images/cypher/camera.mp4",
-        img: "images/cypher/camera.png"
+        video: "cypher/camera.mp4",
+        img: "cypher/camera.png"
     },
     {
         name: "Neural Theft",
         description: "ACTIVATE to steal vital information from a dead enemy's body, revealing the location of all remaining enemies on the map for a limited time.",
-        video: "images/cypher/neural.mp4",
-        img: "images/cypher/neural.png"
+        video: "cypher/neural.mp4",
+        img: "cypher/neural.png"
     },
     {
         name: "Cyber Cage",
         description: "ACTIVATE to deploy a dome-shaped cage that can be triggered to create a temporary area of vision denial, blocking enemy sight and movement.",
-        video: "images/cypher/ultimate.mp4",
-        img: "images/cypher/ultimate.png"
+        video: "cypher/ultimate.mp4",
+        img: "cypher/ultimate.png"
     }
 ];
 

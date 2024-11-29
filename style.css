@@ -259,23 +259,23 @@ button::before {
 
 .maps-gallery {
     display: flex;
-    overflow-x: auto; /* Enables horizontal scroll */
+    overflow-x: auto;
     justify-content: flex-start;
     gap: 20px;
-    padding-bottom: 20px; /* Ensures space for the scrollbar */
-    align-items: flex-end; /* Aligns images to the bottom */
+    padding-bottom: 20px;
+    align-items: flex-end;
 }
 
 .maps-gallery img {
-    width: 300px; /* Fixed width for consistency */
-    height: 200px; /* Fixed height for consistency */
-    object-fit: cover; /* Prevents stretching and ensures image is fully covered */
-    border-radius: 10px; /* Optional: rounded corners */
-    transition: transform 0.3s ease-in-out; /* Optional: adds smooth hover effect */
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .maps-gallery img:hover {
-    transform: scale(1.05); /* Optional: zoom effect on hover */
+    transform: scale(1.05);
 }
 
 
